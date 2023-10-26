@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.f-nav {
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF93BC;
+    align-items: center;
+}
+
+.feature {
+    display: flex;
+}
+
+.feature .app {
+    display: flex;
+    margin-inline: 18px;
+    justify-content: space-around;
+}
+
+.feature .app .i {
+    margin-inline: 8px;
+}
+
+.sec-nav {
+    /* background-color: yellow; */
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.sec-nav .nyka-bar {
+    /* margin-left: 90px; */
+    /* background-color: red; */
+    width: 50%;
+}
+
+.sec-nav ul ul a {
+    margin-inline: 10px;
+    text-decoration: none;
+}
+
+.sec-nav.inputs{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.sec-nav .inputs input {
+    width: 220px;
+    background-color: rgb(205, 197, 197);
+    border: none;
+    outline: none;
+    /* text-align: center; */
+    font-size: 16px;
+}
+
+.sec-nav .inputs button{
+    /* margin-inline: 22px; */
+    width: 80px;
+    background-color: rgb(251, 106, 130);
+    color: white;
+    font-size: 17px;
+}
+
+
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
